@@ -12,7 +12,6 @@ body {
 
 .main {
     display: inline-flex;
-    border: 1px solid black;
 }
 
 .container1,
@@ -32,11 +31,8 @@ body {
     top: 0;
     bottom: 0;
     right: 0;
-    /* display: none; */
     opacity: 0;
     pointer-events: none;
-    /* visibility: hidden; */
-    /*or opacity: 0; */
 }
 
 .innerBox1 {
@@ -73,11 +69,9 @@ body {
     top: 0;
     bottom: 0;
     right: 0;
-    /* display: none; */
     opacity: 0;
     pointer-events: none;
-    /* visibility: hidden; */
-    /*or opacity: 0; */
+   
 }
 
 .innerBox2 {
@@ -86,7 +80,6 @@ body {
     margin: auto;
     margin-top: 30%;
     text-align: center;
-    /* pointer-events: none;  (Sometimes cursor still shows when item is hiddem)*/
 }
 
 .innerBox2 a {
@@ -94,25 +87,6 @@ body {
 }
 
 .modal2:target {
-    /* visibility: visible; */
     opacity: 1;
     pointer-events: all;
 }
-
-/* #secondContainer {
-    display: flex;
-}
-
-#thirdContainer {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#mainContainer {
-    float: right;
-}
-
-.row-lg-1 {
-    margin-bottom: 10px;
-    margin-right: 10px;
-} */
